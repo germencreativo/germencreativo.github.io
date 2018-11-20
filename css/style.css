@@ -5,6 +5,12 @@ body{
     color: #505962;
 }
 
+/*navbar-toggler*/
+
+.navbar-toggler{
+    background-color: #323036;
+}
+
 /*Nav*/
 .navbar{
     text-transform: uppercase;
@@ -53,7 +59,7 @@ body{
 /*Tema*/
 
 .jumbotron{
-    background-color: #505962;
+    background-color: #323036;
     color: white;
 }
 /*btn form*/
@@ -66,9 +72,9 @@ form .btn{
     font-size: .9rem;
 } 
 
-h3.heading{
+h2.heading{
     text-align: center;
-    font-size: 1.9rem;
+    font-size: 2.5rem;
     text-transform: uppercase;
     margin-top: 2rem;
     margin-bottom: 1.5rem;
@@ -88,17 +94,65 @@ img.portfolio{
     padding: 2rem ;
 }
 
-.footer .row{
-    background-color: #505962;
+footer .row{
+    background-color: #323036;
     padding: 1rem 2rem 3rem;
     color: white;
 }
 
 /*Imagen del footer*/
-.footer img{
+footer img{
     height: 4rem;
-    margin: 1.5rem 0;
+    margin: 1.3rem 0;
 }
+
+footer {
+  padding: 25px 0;
+  text-align: center;
+}
+
+footer ul.quicklinks {
+  font-size: 90%;
+  line-height: 40px;
+  margin-bottom: 0;
+  text-transform: none;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+ul.social-buttons {
+  margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+  font-size: 20px;
+  line-height: 50px;
+  display: block;
+  margin-top: 25px;
+  width: 50px;
+  height: 50px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: white;
+  border-radius: 100%;
+  outline: none;
+  background-color: #2F908E;
+}
+
+.list-inline-item .fas {
+  font-size: 30px;
+  line-height: 50px;
+  margin-top: 20px;
+  width: 50px;
+  height: 50px;
+  color: #2F908E;
+  outline: none;
+}
+
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+  background-color: white;
+  color: black
+}
+
 
 /*Team*/
 .jumbotron img{
