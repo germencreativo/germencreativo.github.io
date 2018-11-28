@@ -230,30 +230,62 @@
         
 <!--Start testimonials section 31 minutos-->
 <div id="testimonials">
-  
+<div class="container-fluid ">  
   <div class="row">
            <div class="col-lg-12 text-center">
                 <h2 class="heading">Clientes</h2>       
            </div>            
- </div>
-<div class="row padding">
-    
-         <div class="col-md-4 text-center">
-             <h4>Full Screen Landing</h4>
-             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure beatae, hic, esse est nobis unde ad</p>
-         </div>
-        <div class="col-md-4 text-center">
-             <h4>Smooth Scrolling</h4>
-             <p> vero quisquam eaque placeat doloremque molestias quibusdam blanditiis. Nam fugit, beatae iusto adipisci soluta.</p>
-         </div>
-        <div class="col-md-4 text-center">
-             <h4>Contact Form</h4>
-             <p> vero quisquam eaque placeat doloremque molestias quibusdam blanditiis. Nam fugit, beatae iusto adipisci soluta.</p>
-         </div>   
-        
+  </div>
+<div class="row ">
+ <div class="slider">
+	<div class="slide-track">
+		<div class="slide">
+			<img src="img/salsamentaria-cliente-germen-creativo.png" height="200" width="200" alt="" />		
+		</div>
+		<div class="slide">
+			<img src="img/salsamentaria-cliente-germen-creativo.png" height="200" width="200" alt="" />
+			
+		</div>
+		<div class="slide">
+			<img src="img/salsamentaria-cliente-germen-creativo.png" height="200" width="200" alt="" />
+			
+		</div>
+		<div class="slide">
+			<img src="img/salsamentaria-cliente-germen-creativo.png" height="100" width="250" alt="" />		</div>
+		<div class="slide">
+			<img src="img/salsamentaria-cliente-germen-creativo.png" height="100" width="250" alt="" />		</div>
+		<div class="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+		</div>
+		<div class="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+		</div>
+	</div>
+</div>
 </div><!--End row-->    
 </div><!--End testimonials section-->
-
+</div><!--End container-->
 <div id="about">
     <div class="jumbotron">
         <div class="row">
@@ -309,19 +341,19 @@
         <h2 class="heading">Contáctanos</h2>       
     </div>            
 </div>
-  <form>
+  <form action="enviar.php" method="post">
       <div class="form-group">
         <label for="exampleFormControlInput1">Email</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
       </div>
       <div class="form-group">
         <label for="exampleFormControlSelect1">Nombre</label>
-        <input class="form-control" type="text">    
+        <input class="form-control" type="text" name="nombre" required>    
       </div>
       
       <div class="form-group">
         <label for="exampleFormControlTextarea1">Cuéntanos un poco qué necesitas!</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="mensaje" required></textarea>
       </div>
       <button type="submit" class="btn btn-outline-dark enviar">Enviar</button>
     </form>    
