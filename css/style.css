@@ -45,7 +45,7 @@ body{
   content: "";
   height: 200px;
   position: absolute;
-  width: 150px;
+  width: 70px;
   z-index: 2;
 }
 
